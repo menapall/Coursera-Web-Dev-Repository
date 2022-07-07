@@ -1,13 +1,12 @@
 body {
     font-size: 16px;
-    color: #fff;
-    background-color: #e6f9ff; /*maroon*/
+    background-color: aquamarine;
     font-family: 'Oxygen', sans-serif;
   }
   
-  h1 { 
+  .navbar-brand { 
       font-family: 'Lora', sans-serif;
-      color:#ffffff;
+      color:black;
       font-size: 1.5em;
       font-weight: bold;
       margin-top: 1.5em;
@@ -15,7 +14,7 @@ body {
       line-height: .75;
   }
   
-  h2 { 
+  h1 { 
       font-family: 'Lora', sans-serif;
       color:#006080;
       /*font-size: 1.8em;*/
@@ -33,29 +32,37 @@ body {
   
   
   /** ============= HEADER ===================== **/
-  #header-nav {
-      background-color: palevioletred;  
-      margin-bottom: 1.5em;
-  }
-  
-  /*Menu items*/
-  #nav-list {
-    margin-top: 10px;
-    background-color: #804000; 
-  }
-  #nav-list a { /*dropdown menu colors*/
-    color: #ffffff;
-    background: #992600;
-    text-align: center;
-  }
-  #nav-list a:hover {
-    background: #661a00;
-  }
-  
-  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-    border: 1px solid blue;
-  }
-  
+  #navbar {
+    background-color: rgba(119, 115, 115, 0.92);
+    
+}
+
+#header {
+    border-bottom: 2px solid black;
+}
+
+.navbar-nav a {
+    border-top: 2px solid black;
+    color: black;
+    
+}
+
+.collapse.navbar-collapse {
+    background-color: white;
+    
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.navbar.navbar-expand-md {
+    padding-bottom: 0;
+}
+
+
   /** ============= Main content ===================== **/
   
   #main-content a {
